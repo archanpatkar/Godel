@@ -1,10 +1,8 @@
 from Godel import *
 from math import *
 
-t = G(4)
+tv = G(4)
 
-print(t)
+print(tv)
 
-print(NOT(t[1]))
-
-print(NOT(0))
+NOT(tv[1])
