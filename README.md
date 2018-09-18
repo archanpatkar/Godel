@@ -15,7 +15,7 @@ print(tv)
 [0, Fraction(1, 3), Fraction(2, 3), 1]
 ```
 
-### `Operating on the Values`
+### `Not Operator`
 > Negating the first value of the n Truth Values
 ```python
 from Godel import *
@@ -26,4 +26,16 @@ print(n)
 ### Output
 ```python
 1
+```
+
+### `And Operation`
+```python
+from Godel import *
+tv = G(4)
+n = AND(tv[1],tv[2])
+print(n)
+```
+### Output
+```python
+1/3
 ```
