@@ -2,6 +2,8 @@
 ### A Library for working with finite valued Gödel's G(k) Logic
 
 ## Example Usage
+
+### Obtaining Values
 > Obtaining n Truth Values inside the range of [0,1]  
 ```python
 from Godel import *
@@ -13,6 +15,7 @@ print(tv)
 [0, Fraction(1, 3), Fraction(2, 3), 1]
 ```
 
+### Operating on the Values
 > Negating the first value of the n Truth Values
 ```python
 from Godel import *
