@@ -5,6 +5,7 @@
 ```python
 from Godel import *
 tv = G(4)
+print(tv)
 ```
 ### Output
 ```python
