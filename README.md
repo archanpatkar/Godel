@@ -6,7 +6,7 @@
 from Godel import *
 tv = G(4)
 ```
-`Output`
+### Output
 ```python
 [0, Fraction(1, 3), Fraction(2, 3), 1]
 ```
