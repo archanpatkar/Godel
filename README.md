@@ -2,6 +2,7 @@
 ### A Library for working with finite valued Gödel's G(k) Logic
 
 ## Example
+> Obtaining n Truth Values inside the range of [0,1]  
 ```python
 from Godel import *
 tv = G(4)
