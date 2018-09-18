@@ -28,7 +28,7 @@ print(n)
 1
 ```
 
-### `And Operation`
+### `And Operator`
 ```python
 from Godel import *
 tv = G(4)
