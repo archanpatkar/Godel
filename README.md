@@ -1,2 +1,2 @@
 # Godel
-### A Library for working with Godel Logic G(k) Multi Finite Valued Logic 
+### A Library for working with both finite and infinite valued Gödel's G(k) and G(∞) Logic
