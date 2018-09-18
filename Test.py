@@ -1,8 +1,5 @@
 from Godel import *
-from math import *
 
 tv = G(4)
-
-print(tv)
-
-NOT(tv[1])
+n = NOT(tv[0])
+print(n)
