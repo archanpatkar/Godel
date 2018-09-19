@@ -51,3 +51,15 @@ print(n)
 ```python
 2/3
 ```
+
+### `IMPLICATION Operator`
+```python
+from Godel import *
+tv = G(4)
+n = IMP(tv[2],tv[3])
+print(n)
+```
+### Output
+```python
+1
+```
