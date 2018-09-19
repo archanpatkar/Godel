@@ -16,7 +16,7 @@ print(tv)
 ```
 
 ### `Not Operator`
-> Negating the first value of the n Truth Values
+> Negating the first truth value (0)
 ```python
 from Godel import *
 tv = G(4)
