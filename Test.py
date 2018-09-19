@@ -1,6 +1,4 @@
 from Godel import *
-
 tv = G(4)
-print(tv)
-n = AND(tv[1],tv[2])
+n = IMP(tv[2],tv[3])
 print(n)
