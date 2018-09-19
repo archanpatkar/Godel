@@ -1,10 +1,10 @@
 ### <img src="./godel.png" />
-### A Library for working with finite valued Gödel's G(k) Logic
+### A Library for working with finite multi valued Gödel's G(k) Logic
 
 ## Example Usage
 
-### `Obtaining Values`
-> Obtaining n Truth Values inside the range of [0,1]  
+### `Truth Values`
+> Obtaining n Truth Values inside the range of (0,1]  
 ```python
 from Godel import *
 tv = G(4)
@@ -16,7 +16,7 @@ print(tv)
 ```
 
 ### `Not Operator`
-> Negating the first value of the n Truth Values
+> Negating the first truth value (0)
 ```python
 from Godel import *
 tv = G(4)
@@ -38,4 +38,28 @@ print(n)
 ### Output
 ```python
 1/3
+```
+
+### `OR Operator`
+```python
+from Godel import *
+tv = G(4)
+n = OR(tv[1],tv[2])
+print(n)
+```
+### Output
+```python
+2/3
+```
+
+### `IMPLICATION Operator`
+```python
+from Godel import *
+tv = G(4)
+n = IMP(tv[2],tv[3])
+print(n)
+```
+### Output
+```python
+1
 ```
