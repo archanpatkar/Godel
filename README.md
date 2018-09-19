@@ -39,3 +39,15 @@ print(n)
 ```python
 1/3
 ```
+
+### `OR Operator`
+```python
+from Godel import *
+tv = G(4)
+n = OR(tv[1],tv[2])
+print(n)
+```
+### Output
+```python
+2/3
+```
