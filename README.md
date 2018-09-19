@@ -4,7 +4,7 @@
 ## Example Usage
 
 ### `Obtaining Values`
-> Obtaining n Truth Values inside the range of [0,1]  
+> Obtaining n Truth Values inside the range of (0,1]  
 ```python
 from Godel import *
 tv = G(4)
