@@ -1,5 +1,5 @@
 ### <img src="./godel.png" />
-### A Library for working with finite multi valued Gödel's G(k) Logic
+### A Library for working with finite and infinite valued Gödel's G(k) and G(∞) Logics
 
 ## Example Usage
 
