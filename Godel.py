@@ -21,7 +21,28 @@ def implication(u,v):
     if u <= v: return 1
     elif u > v: return v
 
+def imin(u,v):
+    if(u and v <= 1 and u and v >= 0):
+        min(u,v)
+
+def imax(u,v):
+    if(u and v <= 1 and u and v >= 0):
+        max(u,v)
+
+def ineg(u):
+    if(u <= 1 and u >= 0):
+        neg(u)   
+
+def iimplication(u,v):
+    if(u and v <= 1 and u and v >= 0):
+        implication(u,v)
+
 AND = min
 OR = max
 NOT = neg
 IMP = implication
+
+IAND = imin
+IOR = imax
+INOT = ineg
+IIMP = iimplication
