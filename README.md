@@ -1,5 +1,5 @@
 ### <img src="./godel.png" />
-### A Library for working with Gödel's finite and infinite valued G(k) and G(∞) Logics
+### A Library for working with Gödel's finite and infinite valued G(k) and G(∞) Logics in Python
 
 ## Example Usage
 
